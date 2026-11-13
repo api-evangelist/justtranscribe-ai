@@ -1,4 +1,4 @@
-# justtranscribe-ai
+# JustTranscribe
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,117 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-justtranscribe-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://justtranscribe.ai/
+JustTranscribe provides a browser‑based transcription service that converts audio and video files into searchable text with word‑level timestamps, speaker labels and translation into over 100 languages. Users can upload files up to 500 MB or 150 minutes, or submit public video links from platforms like YouTube, TikTok and Instagram. The platform runs on OpenAI’s speech‑to‑text and Anthropic’s Claude for analysis, offering free unlimited transcription during its beta, with options to export results as TXT, SRT, VTT, CSV, PDF or DOCX.
+
+**Areas:** Transcription · Audio · Video · AI · Free · SaaS
+
+## JustTranscribe on APIs.io
+
+Everything profiled for JustTranscribe is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/justtranscribe-ai/](https://apis.io/providers/justtranscribe-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [JustTranscribe Me API](https://apis.io/apis/justtranscribe-ai/justtranscribe-ai-me-api/) — The Me API from JustTranscribe — 1 operation(s) for me.
+- [JustTranscribe Transcripts API](https://apis.io/apis/justtranscribe-ai/justtranscribe-ai-transcripts-api/) — The Transcripts API from JustTranscribe — 3 operation(s) for transcripts.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Justtranscribe Ai Webhooks](https://apis.io/asyncapis/justtranscribe-ai/justtranscribe-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [JustTranscribe Agentic Access](https://apis.io/agentic-access/justtranscribe-ai/justtranscribe-ai-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Justtranscribe Ai Context](https://apis.io/jsonld/justtranscribe-ai/justtranscribe-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [JustTranscribe API Rules](https://apis.io/rules/justtranscribe-ai/justtranscribe-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [JustTranscribe Authentication](https://apis.io/security/justtranscribe-ai/justtranscribe-ai-authentication/)
+- [JustTranscribe Domain Security](https://apis.io/security/justtranscribe-ai/justtranscribe-ai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://justtranscribe.ai/)
+- [Documentation](https://justtranscribe.ai/developers)
+- [Pricing](https://justtranscribe.ai/pricing)
+- [Blog](https://justtranscribe.ai/blog)
+- [Terms of service](https://justtranscribe.ai/terms)
+- [Privacy policy](https://justtranscribe.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 42.9** — developing · rubric 0.27.0 · scored 2026-11-13
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 52.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 31.6 |
+
+**Agent readiness 49.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/justtranscribe-ai/](https://apis.io/providers/justtranscribe-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for JustTranscribe: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/justtranscribe-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
